@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: #c5c5c5;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contenedor {
+	width: 1200px;
+	margin: auto;
+	padding: 15px 0;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* Estilo de contenedores y sus respectivos titulos */
+
+.ingreso_fonasa{
+    width: 1200px;
+    height: 200px;
+    background: #a59b9b;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #0F69B4;
+    color: rgb(255, 0, 0);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title1 {
+    margin: 0;
+    text-align: left;
+    height: 25px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+    color: #0F69B4;
+}
+
+.formularios_anteriores{
+    width: 1200px;
+    height: 100%px;
+    background: #a59b9b;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #0F69B4;
+    color: rgb(255, 0, 0);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title2 {
+    margin: 0;
+    text-align: left;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+    color: #0F69B4;
+}
+
+
+/* Estilo Botones */
+
+.boton_formulario {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    font-family: 'Roboto' , sans-serif;
+    color: rgb(245, 245, 245);
+    background: #ed3232;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.boton_formulario:hover{
+    background: rgba(179, 97, 97, 0.548);
+}
